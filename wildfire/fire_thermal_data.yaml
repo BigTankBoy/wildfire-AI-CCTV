@@ -1,0 +1,13 @@
+train: ../data/train/images
+val: ../data/valid/images
+test: ../data/test/images
+
+nc: 1
+names: ['fire_thermal']
+
+roboflow:
+  workspace: dworf-nekitaec-0rxxs
+  project: set-2-rlbmu
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/dworf-nekitaec-0rxxs/set-2-rlbmu/dataset/1
